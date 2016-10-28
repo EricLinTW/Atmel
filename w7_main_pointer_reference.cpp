@@ -13,6 +13,7 @@
  vu8 a77=5;
  vu8 &c77=a77; //call by reference
  vu8 *pt77=&DDRC; // call by pointer,call by address
+ void aaa(void);
  int main(void)
  { while(1)
      {   c77=10;
